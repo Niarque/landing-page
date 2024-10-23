@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'inter';
+    overflow-x: hidden;
 }
 #logo{
     margin-left: 50px;
@@ -62,9 +63,7 @@
 #div-cards{
 display: grid;
 grid-auto-flow: column;
-columns: auto;
-padding-left: XXpx;
-padding-bottom: XXXpx;
+margin-top: 25px;
 }
 
 .cards{
@@ -80,5 +79,5 @@ padding-bottom: XXXpx;
 }
 
 .seta{
-    margin-top: 50%;
+    margin-top: 25%;
 }
