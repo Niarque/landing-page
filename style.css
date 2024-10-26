@@ -74,10 +74,57 @@ margin-top: 25px;
     display: none;
 }
 
-#bruna{
+#Bruna{
     display: none;
 }
 
 .seta{
     margin-top: 25%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#Formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin-top: 25px;
+    font-size: 40px;
+    color: #383838;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 413px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0b5474;
+    transition-duration: 0.5s;
 }
