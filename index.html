@@ -15,7 +15,7 @@
     <div id="menusuperior">
         <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi-sq7e-ZqJAxX6XkgAHZMrAFsYABAAGgJjZQ&co=1&ase=2&gclid=Cj0KCQjwsc24BhDPARIsAFXqAB1atDIGYb2p3ThoiLUZPEOsSQjWf_NEL6pI1alXD-6DrEKW1MYRCZsaAkLOEALw_wcB&ohost=www.google.com&cid=CAESVuD2zZvzrGFFuHODoDskVCoYVjj4p4OJIVrt5RjD2x5d9oFlGID5HYuRne-8-5IeyIFO6V02gv-NHkc6eTVF0kPEHp7AONbjctJfxVAAXjyzCSUOPXYT&sig=AOD64_1JejWNBuYn6nfqMXOkNKSKtqKd2A&q&nis=4&adurl&ved=2ahUKEwiosqne-ZqJAxUxrJUCHbfhBdkQ0Qx6BAgIEAE"><img src="imagens/logo.svg" id="logo" alt="erro!"></a>
 
-    <script src="index.js"></script>
+
 
     <h1 id="titulo-menusuperior">Dê os primeiros passos da<br>
     sua carreira em Tecnologia</h1>
@@ -23,6 +23,7 @@
     Tecnologia da DNC School e aprenda os principais <br>
     fundamentos para construir experiências efetivas.</p>
     </div>
+
     <!--MENU INFORMACIONAL-->
     <div id="menuinformacional">
         
@@ -30,6 +31,7 @@
         <p class="texto-informativo"> <img src="imagens/icones/Icone-relogio.svg" class="icone" id="relogio">4 horas de conteúdo</p>
         <p class="texto-informativo"> <img src="imagens/icones/Icone-camera.svg" class="icone" id="camera">Aulas online gravadas</p>
     </div>
+
     <!--VÍDEO-->
     <div id="secaovideo">
         <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/rdINp5rZgxU" title="Conheça a DNC | Web Série - Episódio #01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -53,14 +55,27 @@
         <h1 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
         <!--DIVISÃO DOS CARDS-->
         <div id="div-cards">
-            <img id="seta-esquerda" class="seta" src="imagens/icones/seta-esquerda.svg" alt="erro">
-            <img class="cards" id="leonardo" src="imagens/cards/leonardo.svg" alt="erro">
-            <img class="cards" id="bruna" src="imagens/cards/bruna.svg"erro">
-            <img class="cards" id="samanta" src="imagens/cards/samanta.svg" alt="erro">
-            <img id="seta-direita" class="seta" src="imagens/icones/seta-direita.svg" alt="erro">
+            <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="imagens/icones/seta-esquerda.svg" alt="erro">
+            <img class="cards" id="Leonardo" src="imagens/cards/leonardo.svg" alt="erro">
+            <img class="cards" id="Samanta" src="imagens/cards/samanta.svg" alt="erro">
+            <img class="cards" id="Bruna" src="imagens/cards/bruna.svg" alt="erro">
+            <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="imagens/icones/seta-direita.svg" alt="erro">
         </div>
         
     </div>
-    <script src="index.html"></script>
+
+    <!--FORMULÁRIO-->
+    <div id="Formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/iEFNa8pJiqho4oMaGicD5Y" method="post">
+            <input type="text" placeholder="NOME" name="Name" required> <br>
+            <input type="email" placeholder="E-MAIL" name="Email" required> <br>
+            <input type="number" placeholder="TELEFONE" name="phone"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
 </body>
-</html>
+</html> 
